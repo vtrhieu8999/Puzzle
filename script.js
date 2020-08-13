@@ -3,6 +3,13 @@ let j = document.getElementById('armI');
 let k = document.getElementById('bodyI');
 let l = document.getElementById('legI');
 
+function start(){
+    swap('head', 'headI');
+    swap('arm', 'armI');
+    swap('body', 'bodyI');
+    swap('leg', 'legI');
+}
+
 function swap(a, b) {
     let btn = document.getElementById(a);
     let img = document.getElementById(b).id;
